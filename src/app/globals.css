@@ -9,7 +9,7 @@
     --breakpoint-2xl: 2560px;
     --breakpoint-3xl: 3440px;
 
-    --color-blanco: #EBE1DF;
+    --color-mainBlack: #0E0F0E;
 }
 
 @theme inline{
