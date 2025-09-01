@@ -21,6 +21,7 @@ export default function HeroSection(){
                 <button className="bg-black border-1 border-[#4bce5d] w-full  md:w-1/2  cursor-pointer text-white font-bebasneue rounded-2xl p-2
                 text-xl md:text-3xl lg:text-4xl 2xl:text-6xl 3xl:text-7xl
                 flex text-center justify-center
+                hover:backdrop-blur-3xl hover:drop-shadow-[#4bce5d] hover:drop-shadow-md
 
                 ">
                     Cadastre-se aqui!
@@ -31,6 +32,8 @@ export default function HeroSection(){
              lg:col-span-3 relative h-[400px] group flex justify-center p-8 rounded-2xl w-full">
             
             </div>
+
+            
 
         </div>
     )
