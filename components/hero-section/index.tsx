@@ -27,21 +27,9 @@ export default function HeroSection(){
                 </button>
             </div>
 
-            <div className="bg-amber-600 lg:col-span-3 relative h-auto group flex justify-center p-8">
-                <Link href="/">
-                <Image src="/produtos/supernintendo.png"
-                width={1920}
-                height={1088}
-                alt="Super Nintendo!"
-                className="object-fill h-[600px] w-auto lg:h-[300px]"
-                
-                
-                />
-
-
-                
-                </Link>
-                
+            <div className="bg-[#346d3b]
+             lg:col-span-3 relative h-[400px] group flex justify-center p-8 rounded-2xl w-full">
+            
             </div>
 
         </div>
