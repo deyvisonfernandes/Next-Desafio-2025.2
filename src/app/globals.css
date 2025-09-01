@@ -14,4 +14,5 @@
 
 @theme inline{
     --font-saira: var(--font-saira), system-ui, sans-serif;
+    --font-bebasneue: var(--font-bebasneue), system-ui, sans-serif;
 }

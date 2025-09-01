@@ -34,7 +34,7 @@ export default function Header(){
             <div className="hidden w-full md:flex justify-end items-center gap-10">
                 {links.map((link, index) => 
                 <Link href={link.href} key={index}>
-                <span className="text-[#4bce5d] font-saira hover:text-white/90 hover:border-2 p-1 hover:border-[#4bce5d]/70  font-semibold rounded-2xl">
+                <span className="text-[#4bce5d] font-saira hover:text-white/90 hover:border-b-2 p-1 hover:border-b-[#4bce5d]/70  font-semibold">
                 {link.label}
                 </span>
                 </Link>

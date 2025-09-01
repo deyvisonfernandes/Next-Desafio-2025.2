@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Saira } from "next/font/google";
+import { Geist, Geist_Mono, Saira, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header"; 
 import Footer from "@/components/footer";
@@ -21,6 +21,13 @@ const saira = Saira({
 
 });
 
+
+const bebasneue = Bebas_Neue({
+  variable: "--font-bebasneue",
+  weight:['400'],
+
+});
+
 export const metadata: Metadata = {
   title: "RetroSell",
   description: "Conservando o passado e garantindo o futuro.",
@@ -34,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${saira.variable} antialiased`}
+        className={`${saira.variable} ${bebasneue.variable} antialiased`}
       >
         <Header />
         {children}
