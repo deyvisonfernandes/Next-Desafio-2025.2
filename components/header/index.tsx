@@ -19,8 +19,8 @@ export default function Header(){
     const toggleNav = () => setIsNavOpen(!isNavOpen)
 
     return(
-        <header className="sticky w-full top-0 z-20  mx-auto py-8 px-4 md:p-2 bg-black">
-        <div className="flex flex-wrap items-center justify-between w-full md:w-10/12 mx-auto">
+        <header className="sticky w-full top-0 z-20  py-8 px-4 md:p-2 bg-black">
+        <div className="flex flex-wrap items-center justify-between w-full md:w-full mx-auto">
         <Link href="/" className="flex gap-4 items-center">
         <Image 
         src={'/logo/RETROSELL-LOGO.png'}
