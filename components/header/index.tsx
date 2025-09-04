@@ -7,9 +7,9 @@ import { Menu, X } from "lucide-react"
 const links = [
     {href: '/', label: 'HOME'},
     {href: '/sobrenos', label: 'SOBRE NÓS'},
-    {href: '/produtos', label: 'PRODUTOS'},
+    {href: '/paginaProdutos', label: 'PRODUTOS'},
     {href: '/gerenciamento', label: 'GERENCIAMENTO'},
-    {href: '/contato', label: 'CONTATO'},
+    {href: '/paginaContato', label: 'CONTATO'},
     {href: '/login', label: 'LOGIN'}
 ]
 
