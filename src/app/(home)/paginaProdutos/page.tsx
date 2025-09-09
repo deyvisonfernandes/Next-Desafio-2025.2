@@ -12,7 +12,7 @@ export default function Page(){
             </div>
         </div>
 
-        <div className="flex flex-col w-full bg-white p-2 gap-5">
+        <div className="flex flex-col md:grid md:grid-cols-2 w-full bg-white p-2 md:p-10 gap-5">
             <CardProduto imagem ="/produtos/supernintendo.png" 
             titulo="Console Super Nintendo"
             descricao="Reviva a nostalgia com o Super Nintendo Original! Gráficos clássicos em 16 bits, som icônico e uma biblioteca incrível com jogos lendários...."

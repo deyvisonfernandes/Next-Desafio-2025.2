@@ -3,16 +3,16 @@ import Link from "next/link"
 import Image from "next/image"
 export default function Page(){
     return(
-        <div className="bg-[#4bce5d] flex flex-col lg:flex-row p-4 lg:p-12 gap-20 ">
+        <div className="bg-black flex flex-col lg:flex-row p-4 lg:p-12 gap-20 ">
 
-            <div className="bg-black flex flex-col w-full lg:w-1/2 border-2 border-black drop-shadow-2xl rounded-2xl ">
+            <div className="bg-black flex flex-col w-full lg:w-1/2 drop-shadow-2xl rounded-2xl ">
             <div className="bg-black w-full p-2 rounded-2xl"><h1 className="font-bebasneue text-[#4bce5d] text-3xl lg:4xl">Entre em contato conosco!</h1></div>
-            <div className="bg-white backdrop-blur-md flex flex-col w-full gap-5 p-3 rounded-2xl">
+            <div className="bg-white backdrop-blur-md flex flex-col  w-full gap-5 p-3 rounded-2xl">
                 <input type="text" placeholder="Nome" className="border-1 border-black/20 text-xl p-2  font-saira font-semibold rounded-2xl" />
                 <input type="text" placeholder="Email"  className="border-1 border-black/20  text-xl p-2 font-saira font-semibold rounded-2xl" />
                 <input type="text" placeholder="Assunto"  className="border-1 border-black/20  text-xl p-2 font-saira font-semibold rounded-2xl " />
                 <textarea name="" id="" placeholder="Digite aqui sua mensagem..." className="border-1 border-black/20  text-xl p-2 font-saira font-semibold rounded-2xl "></textarea>
-                <button className="flex align-center self-end font-bebasneue font-semilbold bg-black text-[#4bce5d] p-2 w-fit text-2xl md:text-3xl cursor-pointer">Enviar</button>
+                <button className="flex align-center self-end font-bebasneue font-semilbold bg-black text-[#4bce5d] p-2 w-fit text-2xl md:text-3xl cursor-pointer rounded-2xl">Enviar</button>
 
             </div>
             
