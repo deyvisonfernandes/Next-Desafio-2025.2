@@ -8,7 +8,7 @@ const links = [
     {href: '/', label: 'HOME'},
     {href: '/sobrenos', label: 'SOBRE NÓS'},
     {href: '/paginaProdutos', label: 'PRODUTOS'},
-    {href: '/gerenciamento', label: 'GERENCIAMENTO'},
+    {href: '/admin', label: 'GERENCIAMENTO'},
     {href: '/paginaContato', label: 'CONTATO'},
     {href: '/login', label: 'LOGIN'}
 ]
